@@ -4,13 +4,10 @@ var a = "10";
 var b = "10";
 
 
-// console.log(a == b);
-// console.log(a != b);
-// console.log(a === b);
-// console.log(a !== b);
+console.log(a == b);
+console.log(a != b);
 
-sum = sum + i 
+console.log(a === b);  // strict equality
 
-sum += i 
 
 

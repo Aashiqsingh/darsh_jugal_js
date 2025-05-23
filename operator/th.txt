@@ -14,6 +14,6 @@ There are three operators.
 Binary operator :
 1. Airthmatic operator : + , - , * , / , % ,** 
 2. Assignment operator : = ,( += , -= , *= , /= , %=)-- short hand propeerty
-3. relational operator : == , === , != , < , > , <= , >=
+3. relational operator/comparision opt : == , === , !=  , !==, < , > , <= , >=
 4. logical operator : && , || , !
 5. bitwise operator : & , | , ^
