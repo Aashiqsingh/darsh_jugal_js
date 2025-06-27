@@ -1,0 +1,16 @@
+JSON -- javascript object notation
+
+JSON is a lightweight data-interchange format.
+
+
+key : value 
+
+
+let student = {
+    roll:1,
+    name:"aashi",
+    age:20
+    email:"aashi@gmail.com",
+    mobile:873603893,
+    isActive:true
+}
