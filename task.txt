@@ -1,0 +1,50 @@
+var setPass = 6354;
+func checkBal(){
+	let avlbal = 40000;
+	return avlbal
+}
+func deposit()
+{
+	Enter your amount:
+		Your amount will be deposited
+			let ans = checkBal()
+			ans += amount
+		After deposit your bal is , ans
+}
+func withdraw(){
+	let ans = checkBal()
+	Enter your amount;
+	if(ans < amount)
+	{
+		successfully withdraw
+			ans -= amount
+		After withdrwa your amout will be ans	
+	}
+	{
+		Insuffcient bal
+	}
+}
+
+
+Are you enter in atm?
+{
+	Enter your account :
+	Enter your pass :
+		{
+			1. Check bal
+			2. Deposit
+			3. withdraw
+				Enter your choice:
+				switch(choice)
+					case 1 : let ans = checkBal()
+							console.log("You avlbal is",ans);
+						break;
+
+					case 2: 
+		}{
+			Invalid password
+		}
+}
+{
+	Thankyou for visit atm...
+}
