@@ -51,3 +51,9 @@ var users = ["harsh","rajvi","joshi","prajapti","harshil","darsh"]
 // darsh 
 
 // hsrad
+
+
+var name = "aashiq";
+
+let x = name.split("").reverse().join("")
+console.log(x);
