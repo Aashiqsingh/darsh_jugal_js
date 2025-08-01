@@ -1,0 +1,11 @@
+DOM --> [Document object model]
+
+
+To manipulate the DOM, we need to use the Document Object Model (DOM) APIs.
+
+identifier:
+1. id --> uniqui
+2. class --> multiple
+3. tagName --> name of the tag
+4. name --> name of the attribute
+5. querySelector --> selects the first element that matches the specified selector
