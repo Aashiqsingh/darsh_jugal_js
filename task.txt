@@ -48,3 +48,10 @@ Are you enter in atm?
 {
 	Thankyou for visit atm...
 }
+
+
+First name 
+Last name 
+Age 
+Email 
+Number 
