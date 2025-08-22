@@ -49,9 +49,16 @@ Are you enter in atm?
 	Thankyou for visit atm...
 }
 
+Signup :
 
-First name 
-Last name 
-Age 
-Email 
-Number 
+Name  :
+Email :
+Password :
+Age : 
+Mobile  :
+
+
+Login : 
+
+email 
+password
