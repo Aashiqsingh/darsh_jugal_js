@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* Apply a clean font and center the layout */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    color: #fff;
+}
+
+/* Stopwatch digits */
+div:first-of-type {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    background: rgba(0, 0, 0, 0.3);
+    padding: 15px 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Buttons container */
+div:last-of-type {
+    display: flex;
+    gap: 15px;
+}
+
+/* Button styles */
+button {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #4cafef;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+button:hover {
+    background-color: #3887c7;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+</style>
+<body>
+
+    <div>
+        <span id="hour">00</span>
+        <span>:</span>
+        <span id="min">00</span>
+        <span>:</span>
+        <span id="sec">00</span>
+    </div>
+    <div>
+        <button onclick="start()">Start</button>
+        <button onclick="stop()">Stop</button>
+        <button onclick="reset()">Reset</button>
+    </div>
+    
+
+    <script src="./stopwatch.js"></script>
+
+</body>
+</html>
